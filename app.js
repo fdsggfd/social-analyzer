@@ -813,7 +813,7 @@ async function list_all_websites () {
   console.log('[Listing] Available websites\n' + temp_arr.join('\n'))
 }
 
-let server_host = '0.0.0.0'
+let server_host = 'localhost'
 const server_port = process.env.PORT || 9005
 
 if (argv.grid !== '') {
